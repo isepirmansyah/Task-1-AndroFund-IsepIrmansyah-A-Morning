@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="420dp"
+        android:layout_height="200dp"
+        android:background="@drawable/rec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="341dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="330dp"
+        android:background="@drawable/home1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/biodata"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#407BFF"
+            android:drawablePadding="10dp"
+            android:text="Apps Biodata Diri"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fragmen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#4CAF50"
+            android:drawablePadding="10dp"
+            android:text="Apps Tes Fragment"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

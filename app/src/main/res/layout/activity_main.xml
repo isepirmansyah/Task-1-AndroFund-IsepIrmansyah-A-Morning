@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="470dp"
+        android:background="@drawable/data"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="260dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Biodata Diri"
+            android:textColor="#407BFF"
+            android:textSize="23sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@drawable/box">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:text="Nama Lengkap"
+                android:textColor="#407BFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:textColor="#407BFF"
+                android:text=":"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textColor="#407BFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@drawable/box">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:text="Alamat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:text=":"
+                android:layout_marginLeft="74dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:paddingBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@drawable/box">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:text="Nomor Telepon"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#407BFF"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:text=":"
+                android:layout_marginLeft="8dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNomorTelepon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:paddingBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:background="@drawable/box">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:text="Alamat Email"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:text=":"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#407BFF"
+                android:textStyle="bold"
+                android:text=""
+                android:layout_marginLeft="8dp"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                app:icon="@drawable/back"
+                android:layout_marginLeft="20dp"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:backgroundTint="#407BFF"
+                android:textAllCaps="false"
+                android:text="Kembali"
+                android:drawablePadding="10dp" />
+
+            <Button
+                android:id="@+id/home"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="40dp"
+                android:backgroundTint="#407BFF"
+                android:drawablePadding="10dp"
+                android:textAllCaps="false"
+                android:text="Kembali"
+                app:icon="@drawable/home" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
